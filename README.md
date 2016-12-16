@@ -273,7 +273,9 @@ The breakthrough here is that Synth often returns an extremely well-fitted model
 Among the limitations of this implementation of Synth are:
 
 1) Users cannot input their own V matrices
+
 2) Users must input panda dataframes, rather than excel or csv files
+
 3) Users cannot input special predictors, which are a part of Synth's R and MATLAB implementations.
 
 I will focus on improving these in future versions of this code. I 100% welcome feedback from users.
