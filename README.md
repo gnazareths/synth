@@ -281,5 +281,7 @@ I will focus on improving these in future versions of this code. I 100% welcome 
 ## References: if you want to know more about Synth
 
 [Package Synth (Hainmueller and Diamond, 2015)](https://cran.r-project.org/web/packages/Synth/Synth.pdf)
+
 [Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program (Abadie, Diamond and Hainmueller, 2012)](http://web.stanford.edu/~jhain/Paper/JASA2010.pdf)
+
 [The Economic Costs of Conflict: A Case Study of the Basque Country (Abadie and Gardeazabal, 2003)](https://www.aeaweb.org/articles?id=10.1257/000282803321455188)
