@@ -43,7 +43,7 @@ In this implementation, Synth uses a nested optimization with SciPy quadratic pr
 
 Upon finding the optimal vector W (and, by definition, V as well), Synth multiplies the Z0 (outcomes of the control units) by W to find an estimate (or a counterfactual) of the Z1 vector. Synth can plot both the estimate Z1 and the actual Z1, so the researcher can compare how well the model represents the actual data.
 
-## Why Synth is awesome (or dope, depending on your location)
+## Why Synth is awesome
 
 The breakthrough here is that Synth often returns an extremely well-fitted model of the actual data during the periods for which it optimizes. Imagine this scenario: you want to study the effects of an event that happened in 1999 by plotting the outcomes of the synthetic controls against the actual outcomes between 1990 and 2010. It only makes sense to optimize Synth for the periods [1990:1998]. This way, you will see how much the actual data will deviate from the synthetic once, which was calibrated with outcomes and predictors before the event.
 
