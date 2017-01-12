@@ -1,3 +1,5 @@
+import pandas as pd
+
 def synth_tables(foo, 
                  predictors, 
                  treated_unit, 
