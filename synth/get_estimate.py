@@ -1,3 +1,5 @@
+import numpy as np
+
 def get_estimate(x0, x1, z0, z1, z2):
     k,j = len(x0),len(x1)
     v = [1.0/k]*k
